@@ -5,7 +5,6 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/Hatch1fy/copper"
 	"github.com/Hatch1fy/errors"
 	"github.com/Hatch1fy/filecacher"
 
@@ -20,7 +19,7 @@ var (
 )
 
 // New will return a new instance of fileserver
-func New(dir string, cfg copper.Credentials) (fp *FileServer, err error) {
+func New(dir string) (fp *FileServer, err error) {
 	var f FileServer
 	f.fc = filecacher.New(dir)
 	fp = &f
