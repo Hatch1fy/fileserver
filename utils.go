@@ -24,13 +24,13 @@ func canAcceptWebP(req *http.Request) (ok bool) {
 	}
 
 	for _, accept := range header {
-		if ok = strings.Index(accept, "image/webp") > -1; ok {
-			// This entry is image/webp, continue
-			return
+		if strings.Index(accept, "image/webp") > -1 {
+			// This entry is image/webp, return
+			return true
 		}
 	}
 
-	return
+	return false
 }
 
 // canAcceptGZip returns if a request supports gzip responses
@@ -43,16 +43,13 @@ func canAcceptGZip(req *http.Request) (ok bool) {
 	}
 
 	for _, encoding := range header {
-		if encoding != "gzip" {
+		if encoding == "gzip" {
 			// This entry is not image/webp, continue
-			continue
+			return true
 		}
-
-		ok = true
-		return
 	}
 
-	return
+	return false
 }
 
 // isCachable returns if a given extension is cachable
