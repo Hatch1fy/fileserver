@@ -107,8 +107,17 @@ func setHeaders(w http.ResponseWriter, filename, ext string) {
 		ext = filepath.Ext(stripExt(filename))
 	}
 
+	var contentType string
+	switch ext {
+	case ".mp3":
+		contentType = "audio/mpeg"
+
+	default:
+		contentType = mime.TypeByExtension(ext)
+	}
+
 	// Set the content type of the file we're serving
-	header.Set("Content-Type", mime.TypeByExtension(ext))
+	header.Set("Content-Type", contentType)
 
 	if isCachable(ext) {
 		// Extension is cachable, set cache control
