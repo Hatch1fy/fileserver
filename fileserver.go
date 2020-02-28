@@ -8,7 +8,7 @@ import (
 	"github.com/Hatch1fy/errors"
 	"github.com/Hatch1fy/filecacher"
 
-	"github.com/PathDNA/atoms"
+	"github.com/hatchify/atoms"
 )
 
 var (
