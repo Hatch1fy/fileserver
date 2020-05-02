@@ -2,6 +2,7 @@ github.com/Hatch1fy/cron v0.4.76 h1:i9MluLOkCuFNX2F8tjcr7tE4ZKhlmi93v7kIqLy2StY=
 github.com/Hatch1fy/cron v0.4.76/go.mod h1:qTM34B/bZEHUopeeyEIbvRGaZ9OcI0h5JfpLfI19rrU=
 github.com/Hatch1fy/errors v0.4.76 h1:At+EkToySoPJHG04Cc448R1IFadB9jef1K43/x282v4=
 github.com/Hatch1fy/errors v0.4.76/go.mod h1:LPnug0nWT7I99nYl62NfYjxNMCCEx3lBV5YWIco+H0w=
+github.com/Hatch1fy/errors v0.4.77/go.mod h1:LPnug0nWT7I99nYl62NfYjxNMCCEx3lBV5YWIco+H0w=
 github.com/Hatch1fy/filecacher v0.4.77 h1:yMBDQDa0r1LVCZrC6c49p0TqIMTjDYi3NZ+XUzcdDB4=
 github.com/Hatch1fy/filecacher v0.4.77/go.mod h1:SWMyw0qHl6n1Zn5ZeZi125R+F+Dh4yNAf9KHIK5wDRk=
 github.com/Hatch1fy/poller v0.4.77 h1:cjlxGCgKlN+qwnmVJ5nHaUcpdbZsLV1y46YYA4MV0sw=
