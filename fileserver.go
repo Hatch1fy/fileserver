@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/Hatch1fy/errors"
 	"github.com/Hatch1fy/filecacher"
+	"github.com/hatchify/errors"
 
 	"github.com/hatchify/atoms"
 )
