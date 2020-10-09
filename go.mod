@@ -3,7 +3,7 @@ module github.com/hatchify/fileserver
 go 1.14
 
 require (
-	github.com/hatchify/atoms v0.4.79
+	github.com/gdbu/atoms v1.0.1
+	github.com/gdbu/filecacher v0.4.93
 	github.com/hatchify/errors v0.4.82
-	github.com/hatchify/filecacher v0.4.92
 )

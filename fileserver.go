@@ -5,10 +5,9 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/hatchify/filecacher"
+	"github.com/gdbu/atoms"
+	"github.com/gdbu/filecacher"
 	"github.com/hatchify/errors"
-
-	"github.com/hatchify/atoms"
 )
 
 var (
